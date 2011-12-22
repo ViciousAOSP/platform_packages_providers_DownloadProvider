@@ -418,6 +418,9 @@ public class DownloadInfo {
             case ConnectivityManager.TYPE_WIFI:
                 return DownloadManager.Request.NETWORK_WIFI;
 
+            case ConnectivityManager.TYPE_WIMAX:
+                return DownloadManager.Request.NETWORK_WIMAX;
+
             default:
                 return 0;
         }
